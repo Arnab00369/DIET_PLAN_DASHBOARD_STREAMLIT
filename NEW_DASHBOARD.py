@@ -991,7 +991,7 @@ if not st.session_state.authenticated and not st.session_state.admin_authenticat
         else:
             # Admin welcome message
             st.markdown("""
-            <div style='padding: 2rem;'>
+            < style='padding: 2rem;'>
                 <h2>👑 Admin Dashboard</h2>
                 <p>System Administration Portal</p>
                 <br>
@@ -1005,9 +1005,8 @@ if not st.session_state.authenticated and not st.session_state.admin_authenticat
                     <li>📝 Content Management</li>
                 </ul>
                 <br>
-                <p><strong>Default Admin Credentials:</strong></p>
-                <p>Username: <code>admin</code></p>
-                <p>Password: <code>admin123</code></p>
+                <p><strong>Login with your admin credentials to continue.</strong></p>
+            </div>
                 <br>
                 <p style='color: #ff6b6b;'><strong>⚠️ Restricted Access - Admins Only</strong></p>
             </div>
