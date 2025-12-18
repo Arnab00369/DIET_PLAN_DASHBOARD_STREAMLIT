@@ -1004,7 +1004,14 @@ if not st.session_state.authenticated and not st.session_state.admin_authenticat
                     <li>🔐 Security & Access Control</li>
                     <li>📝 Content Management</li>
                 </ul>
-             
+                <br>
+                <p><strong>Default Admin Credentials:</strong></p>
+                <p>Username: <code>admin</code></p>
+                <p>Password: <code>admin123</code></p>
+                <br>
+                <p style='color: #ff6b6b;'><strong>⚠️ Restricted Access - Admins Only</strong></p>
+            </div>
+            """, unsafe_allow_html=True)
     
     # Footer for unauthenticated view
     st.markdown("---")
@@ -2759,8 +2766,4 @@ st.markdown(
     "Built with ❤️ using Streamlit | NUTRI-CARE - Your AI Diet Planner"
     "</div>", 
     unsafe_allow_html=True
-
 )
-
-
-
