@@ -1004,11 +1004,9 @@ if not st.session_state.authenticated and not st.session_state.admin_authenticat
                     <li>🔐 Security & Access Control</li>
                     <li>📝 Content Management</li>
                 </ul>
-                # <br>
-                # <p><strong>Default Admin Credentials:</strong></p>
-                # <p>Username: <code>admin</code></p>
-                # <p>Password: <code>admin123</code></p>
-                # <br>
+                <br>
+               
+                <br>
                 <p style='color: #ff6b6b;'><strong>⚠️ Restricted Access - Admins Only</strong></p>
             </div>
             """, unsafe_allow_html=True)
@@ -2768,3 +2766,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
