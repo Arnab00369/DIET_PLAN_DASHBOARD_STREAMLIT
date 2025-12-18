@@ -1004,10 +1004,7 @@ if not st.session_state.authenticated and not st.session_state.admin_authenticat
                     <li>🔐 Security & Access Control</li>
                     <li>📝 Content Management</li>
                 </ul>
-                
-                <p style='color: #ff6b6b;'><strong>⚠️ Restricted Access - Admins Only</strong></p>
-            </div>
-            """, unsafe_allow_html=True)
+             
     
     # Footer for unauthenticated view
     st.markdown("---")
@@ -2764,5 +2761,6 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
 
