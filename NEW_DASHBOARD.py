@@ -350,14 +350,16 @@ def delete_user(username):
         save_users(users)
         return True, "User deleted successfully!"
     return False, "User not found!"
-
+# ==========================================================
+# ADMIN(UE,PD):
+# ==========================================================
 def create_admin_account():
     """Create default admin account if not exists."""
     users = load_users()
-    admin_username = "admin"
+    admin_username = "ADMIN1"
     if admin_username not in users:
         users[admin_username] = {
-            'password': hash_password("admin123"),  # Default admin password
+            'password': hash_password("ADMIN1"),  # Default admin password
             'email': "admin@nutricare.com",
             'name': "System Administrator",
             'registration_date': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -2766,3 +2768,4 @@ st.markdown(
     "</div>", 
     unsafe_allow_html=True
 )
+
